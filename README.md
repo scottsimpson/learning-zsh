@@ -2,7 +2,7 @@
 This is a collection of snippets used in _Learning ZSH_ at LinkedIn Learning
 
 ## Random number guessing game:
-```
+```zsh
 r=$(( $RANDOM % 8 ))
 echo "I'm thinking of a number between zero and eight. Can you guess it?"
 vared -p "> " -c g
@@ -37,7 +37,7 @@ Empty right prompt:
 
 ## Listing the prompt colors
 Function to show 256 colors in the foreground (`%F`) and background (`%B`). Adapted from [the oh-my-zsh spectrum.zsh file](https://github.com/robbyrussell/oh-my-zsh/blob/master/lib/spectrum.zsh#L22).
-```
+```zsh
 function colors() {
   for color in {000..255}; do
     print -P "$color: %F{$color}████ Foreground %f%K{$color} Background %k"
