@@ -21,7 +21,7 @@ Another colorful string:
 `PROMPT='[%F{009}%n%f@%F{015}%m%f %F{027}%d%f]%# '`
 
 Default string: 
-`PROMPT=%m%#`
+`PROMPT='%m%# '`
 
 Right prompt showing the time: 
 `RPROMPT=%*`
