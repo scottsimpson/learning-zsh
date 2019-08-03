@@ -44,6 +44,7 @@ function colors() {
   done
 }
 ```
+_Note: the file `colors.html` provides an estimation of terminal colors. The actual colors displayed will vary slightly between applications._
 
 Right prompt showing the remaining battery percentage, the date, and time: 
 `RPROMPT='$(battery_pct_prompt) @ %D %*'`
