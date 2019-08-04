@@ -36,7 +36,7 @@ Empty right prompt:
 `RPROMPT=''`
 
 ## Listing the prompt colors
-Function to show 256 colors in the foreground (`%F`) and background (`%B`). Adapted from [the oh-my-zsh spectrum.zsh file](https://github.com/robbyrussell/oh-my-zsh/blob/master/lib/spectrum.zsh#L22).
+Function to show 256 colors in the foreground (`%F`/`%f`) and background (`%K`/`%k`). Adapted from [the oh-my-zsh spectrum.zsh file](https://github.com/robbyrussell/oh-my-zsh/blob/master/lib/spectrum.zsh#L22).
 ```zsh
 function colors() {
   for color in {000..255}; do
