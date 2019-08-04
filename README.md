@@ -27,7 +27,7 @@ Right prompt showing the time:
 `RPROMPT=%*`
 
 Right prompt showing the current working directory: 
-`RPROMPT=$d`
+`RPROMPT=%d`
 
 Right prompt showing the collapsed user directory: 
 `RPROMPT=%~`
